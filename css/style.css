@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All page */
+.allPage {
+    background: linear-gradient(#b34e4b, #471f1e);
+    height: 100vh;
+}
+
+/* Playground */
+.playground {
+    width: 80%;
+    height: 80%;
+    background: #d3c47d;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+/* Total score */
+.totalScore {
+    font-size: 30px;
+    color: #471f1e;
+    font-weight: bold;
+}
+
+.totalScore p:nth-of-type(2){
+    font-size: 40px;
+    text-align: center;
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.totalScore1 {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+/* Current score */
+.currentScore {
+    width: 150px;
+    height: 150px;
+    background-color: #b34e4b;
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-child(2){
+    font-size: 40px;
+}
+
+.currentScore0 {
+    position: absolute;
+    top: 40%;
+    left: 11%;
+}
+
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    right: 16%;
+}
+
+/* Middle text */
+.middleText {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.btn {
+    border: 2px solid #b34e4b;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #b34e4b;
+}
+
+.btn:hover {
+    border: 2px solid #D2263D;
+    background-color: #D2263D;
+}
+
+/* Dice */
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+
+/* Active player */
+.active {
+    color: #fff;
+    border: 2px solid #AD4F34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #AD4F34;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    body, html{
+    background: #bc3300;
+    }
+
+    .playGround{
+    height: 80vh;
+    width: 80vw;
+    background: #ede97c;
+
+    position: relative;
+    margin: auto;
+    margin-top: 10vh;
+    } 
+
+    .player{
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    }
+
+    .totalScore{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background: transparent;
+    color: #831c04;
+    }
+
+    .name{
+    font-size: 20px;
+    font-weight: 600;
+    }
+
+    .totalScorePlayer{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 8px;
+    }
+
+    .currentScore{
+    position: relative;
+    width: 150px;
+    height: 120px;;
+    top: 100px;
+    margin: auto;
+    background: #bc3300;
+    color: aliceblue;
+    padding: 10px;
+    }
+
+    .currentScoreName{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+
+    .currentScoreNum{
+    position: relative;
+    top: 9px;
+    font-size: 40px;
+    font-weight: 700;
+    }
+
+    .cube-img{
+    position: relative;
+    width: 90%;
+    height: 206px;
+    margin: auto;
+    margin-top: 17%;
+    text-align: center;
+    }
+
+    #cubeValue{
+    width: 200px;
+    margin: auto;
+    }
+
+    .gameButtons{
+    margin-top: 20%;
+    }
+
+
+    .btn{
+    text-align: center;
+    width: 170px;
+    height: 45px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #bc3300;
+    color: aliceblue;
+    font-size: 23px;
+    cursor: pointer;
+    }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
